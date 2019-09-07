@@ -1,0 +1,99 @@
+#nav_principal {
+    background-color: #FFF;
+    padding: 10px;
+    height: 11,2%;
+    border: none;  
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+#sessao_inicial {
+    background-color: #FFF;
+    height: 600px;
+    text-align: center;
+}
+
+#sessao_depoimentos{
+    background-color: gray;
+    height: 500px;
+    text-align: center;
+}
+
+header h1.titulo_sessao {
+    color: #FA4107;
+    font-family: Rambla;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header p.descricao_sessao {
+    color: #20303B;
+    font-family: Rambla;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin-top: -5px;
+    text-align: center;
+}
+
+div.coluna_sessao {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+img.coluna_sessao{
+    margin: auto;
+    float: left;
+}
+
+
+h3.titulo_coluna_sessao {
+    font-family: Rambla;
+    color: #20303B;
+    font-size: 24px;
+    text-align: center;
+}
+
+p.descricao_coluna {
+    font-family: Cairo;
+    color:#20303B;
+    font-size: 20px;
+}
+
+
+@media (min-width: 992px) {
+    div.carousel-inner {
+        max-height: 550px;
+    }
+}
+
+footer {
+    display: inline;
+    background-color:  #1F2123;
+    height: 400px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 16px;
+}
+
+div.corpo_rodape {
+    height: 200px;
+    border-top: 0.5px solid #FFF;
+    border-bottom: 0.3px solid #FFF;
+    margin-top: 15px;
+}
+
+div.coluna_rodape {
+    padding: 20px; 
+}
+
+
+
+
