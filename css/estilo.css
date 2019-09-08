@@ -8,14 +8,14 @@
 
 #sessao_inicial {
     background-color: #FFF;
-    height: 600px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-#sessao_depoimentos{
-    background-color: gray;
-    height: 500px;
+#sessao_nosso_trabalho {
+    background-color: #FFF;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 header h1.titulo_sessao {
@@ -32,25 +32,16 @@ header p.descricao_sessao {
     font-size: 1.25em;
     text-transform: uppercase;
     margin-top: -5px;
-    text-align: center;
 }
 
 div.coluna_sessao {
     margin-top: 36px;
-    margin-bottom: 36px;
 }
-
-img.coluna_sessao{
-    margin: auto;
-    float: left;
-}
-
 
 h3.titulo_coluna_sessao {
     font-family: Rambla;
     color: #20303B;
     font-size: 24px;
-    text-align: center;
 }
 
 p.descricao_coluna {
@@ -67,12 +58,11 @@ p.descricao_coluna {
 }
 
 footer {
-    display: inline;
     background-color:  #1F2123;
-    height: 400px;
+    padding: 20px;
 }
 
-footer ul{
+footer ul li{
     list-style: none;
 }
 
@@ -80,11 +70,10 @@ footer ul li a {
     text-decoration: none;
     color: #FFF;
     font-family: Cairo;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 div.corpo_rodape {
-    height: 200px;
     border-top: 0.5px solid #FFF;
     border-bottom: 0.3px solid #FFF;
     margin-top: 15px;
@@ -92,8 +81,5 @@ div.corpo_rodape {
 
 div.coluna_rodape {
     padding: 20px; 
+    float: left;
 }
-
-
-
-
