@@ -18,6 +18,10 @@
     margin-bottom: 30px;
 }
 
+#sessao_depoimentos{ 
+    
+}
+
 header h1.titulo_sessao {
     color: #FA4107;
     font-family: Rambla;
@@ -55,6 +59,18 @@ p.descricao_coluna {
     div.carousel-inner {
         max-height: 550px;
     }
+}
+
+div.cabecalho_sessao_depoimento{
+    color: #FA4107;
+    font-family: Rambla;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+div.cliente{
+    text-align: left;
+    
 }
 
 footer {
